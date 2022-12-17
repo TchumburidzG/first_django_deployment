@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+    {% block body_block %}
+
+        <h1>Wellcome to index.html</h1>
+        <h2> wir sind zwieschen "block body_bloc" und "endblock"</h2>
+
+        <h1>{{ text | cut:"Welt"}}</h1> <br>
+        {{ number | add:'122' }}
+    {% endblock %}
+
+
+
